@@ -1,0 +1,11 @@
+# The "--force" option will overwrite the existing Brewfile if it already exists.
+brew bundle dump --force --describe
+
+# install apps in Brewfile
+brew bundle install
+
+# If you want your current system configuration to match your Brewfile
+brew bundle --force cleanup
+
+# upgrade all apps
+brew cu -af

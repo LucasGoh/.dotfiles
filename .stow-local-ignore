@@ -6,6 +6,7 @@
 .DS_Store
 
 
-# files
-installLsp.sh
-installOh-My-Zsh.sh
+# User files
+.bin/*
+Brewfile
+notes.txt
