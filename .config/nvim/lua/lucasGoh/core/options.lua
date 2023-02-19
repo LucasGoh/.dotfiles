@@ -38,10 +38,8 @@ opt.splitbelow = true
 -- treat "-" as whole word when you delete something like hello-hello
 opt.iskeyword:append("-")
 
+-- local function switch_to_next_buffer()
+-- 	vim.api.nvim_command("bnext")
+-- end
 
-
-local function switch_to_next_buffer()
-    vim.api.nvim_command("bnext")
-end
-
-vim.api.nvim_set_keymap("n", "<Tab>", "<Cmd>lua switch_to_next_buffer()<CR>", {})
+-- vim.api.nvim_set_keymap("n", "<Tab>", "<Cmd>lua switch_to_next_buffer()<CR>", {})
