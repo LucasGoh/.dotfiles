@@ -1,0 +1,11 @@
+# usage:  link--> stow . 
+# usage: unlilnk --> stow -D .
+
+# system files
+.git/*
+.DS_Store
+
+
+# files
+installLsp.sh
+installOh-My-Zsh.sh
