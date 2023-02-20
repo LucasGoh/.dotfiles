@@ -103,4 +103,21 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+############ bat configuration
+#
+alias bathelp='bat --plain --language=help'
+help() {
+    "$@" --help 2>&1 | bathelp
+}
+# bat as a previewer 
+alias pf='fzf --preview bat --color=always --style=numbers --line-range=:500 {}'
+# Highlighting --help messages
+alias bathelp='bat --plain --language=help'
+help() {
+    "$@" --help 2>&1 | bathelp
+}
+# colorizing pager for man
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+
 alias vim="nvim"
