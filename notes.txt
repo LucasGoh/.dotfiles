@@ -9,3 +9,14 @@ brew bundle --force cleanup
 
 # upgrade all apps
 brew cu -af
+
+
+# steam usage:     URL:  https://youtu.be/yY8UA7pSJiQ
+# ~/Steam/steamcmd.sh      then..      
+#### download page: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbk5RWnptV0pXVk9iMktqTGlqV2U5OGV5RV96UXxBQ3Jtc0trNWp4Y0JrLXZrUDhack9URDBSNlZ6bm51LWtXci03bW1xX2lTQzhpRjhWY05rR2M2ZEJ5TW56RjZNenB3SmZqN3hMbjU4QTdYOElLRmRWUVRLQ2RvRnRucWFDcU1maUg0dEdacEp0V1VoYUV1OTV4WQ&q=https%3A%2F%2Fsteamworkshopdownloader.io%2F&v=yY8UA7pSJiQ
+# steam default file folder
+# /Users/gohlucas/Library/Application Support/Steam/steamapps/workshop/content/431960
+
+
+# Übersicht folder 
+# /Users/gohlucas/Library/Application Support/Übersicht/widgets
