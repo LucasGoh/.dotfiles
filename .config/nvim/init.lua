@@ -1,7 +1,6 @@
 require("lucasGoh.plugins-setup")
 require("lucasGoh.core.options")
 require("lucasGoh.core.keymaps")
-require("lucasGoh.core.colorscheme")
 require("lucasGoh.plugins.comment")
 require("lucasGoh.plugins.nvim-tree")
 require("lucasGoh.plugins.lualine")

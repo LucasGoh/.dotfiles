@@ -15,6 +15,7 @@ require("lazy").setup({
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins use
 
 	{ -- LSP Configuration & Plugins
+		--Alternative 'VonHeikemen/lsp-zero.nvim'
 		"neovim/nvim-lspconfig",
 		dependencies = {
 			-- Automatically install LSPs to stdpath for neovim
@@ -52,8 +53,18 @@ require("lazy").setup({
 	"theHamsta/nvim-dap-virtual-text", -- support to nvim-dap.
 
 	----------
-	"bluz71/vim-nightfly-guicolors", --preferred color scheme
+	--"bluz71/vim-nightfly-guicolors", --preferred color scheme
 
+	{
+		"rose-pine/neovim",
+		name = "rose-pine",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("rose-pine").setup()
+			vim.cmd("colorscheme rose-pine")
+		end,
+	},
 	-- use Ctrl+hjkl to jump between panes
 	-- configure in keymaps
 	"christoomey/vim-tmux-navigator", -- tmux & split window navigation
