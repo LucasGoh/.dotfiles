@@ -29,9 +29,3 @@ require("lucasGoh.plugins.dapui")
 require("lucasGoh.plugins.dapVirtualText")
 
 require("lucasGoh.plugins.whichkey")
-
--- Set the highlight groups for transparent backgrounds
-vim.cmd("highlight Normal ctermbg=none guibg=none")
-vim.cmd("highlight NonText ctermbg=none guibg=none")
-vim.cmd("highlight SignColumn ctermbg=none guibg=none")
-vim.cmd("highlight VertSplit ctermbg=none guibg=none")

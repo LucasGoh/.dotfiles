@@ -44,3 +44,9 @@ opt.scrolloff = 8 --never go to bottom
 
 -- vim.api.nvim_set_keymap("n", "<Tab>", "<Cmd>lua switch_to_next_buffer()<CR>", {})
 vim.api.nvim_command(" autocmd FileType markdown setlocal wrap")
+
+-- Set the highlight groups for transparent backgrounds
+vim.cmd("highlight Normal ctermbg=none guibg=none")
+vim.cmd("highlight NonText ctermbg=none guibg=none")
+vim.cmd("highlight SignColumn ctermbg=none guibg=none")
+vim.cmd("highlight VertSplit ctermbg=none guibg=none")
