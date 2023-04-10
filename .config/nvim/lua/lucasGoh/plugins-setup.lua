@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins use
+	"mhinz/vim-startify",
 
 	{ -- LSP Configuration & Plugins
 		--Alternative 'VonHeikemen/lsp-zero.nvim'

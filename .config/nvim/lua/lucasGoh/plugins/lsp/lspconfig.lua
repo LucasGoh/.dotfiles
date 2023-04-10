@@ -198,3 +198,8 @@ lspconfig["bashls"].setup({
 	-- root_dir = util.find_git_ancestor,
 	single_file_support = true,
 })
+
+lspconfig["marksman"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})

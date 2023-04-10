@@ -50,3 +50,6 @@ vim.cmd("highlight Normal ctermbg=none guibg=none")
 vim.cmd("highlight NonText ctermbg=none guibg=none")
 vim.cmd("highlight SignColumn ctermbg=none guibg=none")
 vim.cmd("highlight VertSplit ctermbg=none guibg=none")
+
+-- automatically format after save
+vim.cmd([[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]])

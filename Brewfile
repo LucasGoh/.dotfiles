@@ -1,4 +1,5 @@
 tap "buo/cask-upgrade"
+tap "candid82/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -8,6 +9,7 @@ tap "jesseduffield/lazygit"
 tap "koekeishiya/formulae"
 tap "mas-cli/tap"
 tap "spring-io/tap"
+tap "yqrashawn/goku"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # High performance key/value database
@@ -18,12 +20,14 @@ brew "binutils"
 brew "glib"
 # Cross-platform make
 brew "cmake"
+# Load/unload environment variables based on $PWD
+brew "direnv"
 # Platform built on V8 to build network applications
 brew "node"
 # AST-based pattern checker for JavaScript
 brew "eslint"
-# Command-line fuzzy finder written in Go
-brew "fzf"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Glorious Glasgow Haskell Compilation System
 brew "ghc"
 # Distributed revision control system
@@ -52,12 +56,16 @@ brew "inetutils"
 brew "jenv"
 # Featureful UNIX password cracker
 brew "john"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Language Server for the Lua language
 brew "lua-language-server"
+# Language Server Protocol for Markdown
+brew "marksman"
 # Mac App Store command-line interface
 brew "mas"
 # Java-based project management
@@ -78,6 +86,8 @@ brew "pkcs11-helper"
 brew "openvpn"
 # General-purpose scripting language
 brew "php"
+# Show ps output as a tree
+brew "pstree"
 # Reverse engineering framework
 brew "radare2"
 # Powerful, clean, object-oriented scripting language
@@ -100,8 +110,6 @@ brew "vim"
 brew "virtualenv"
 # Internet file retriever
 brew "wget"
-# Access X11 clipboards from the command-line
-brew "xclip"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -112,6 +120,8 @@ brew "zsh-syntax-highlighting"
 brew "koekeishiya/formulae/skhd"
 # A tiling window manager for macOS based on binary space partitioning.
 brew "koekeishiya/formulae/yabai"
+# karabiner configurator
+brew "yqrashawn/goku/goku"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Memory training application
@@ -120,14 +130,16 @@ cask "anki"
 cask "blackhole-16ch"
 # Virtual Audio Driver
 cask "blackhole-2ch"
+# Block websites, games and applications
+cask "cold-turkey-blocker"
+# API documentation browser and code snippet manager
+cask "dash"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Eclipse IDE for Java developers
-cask "eclipse-java"
-# Web browser
-cask "firefox"
+# Web browser focusing on privacy
+cask "duckduckgo"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Desktop client for GitHub repositories
@@ -138,6 +150,10 @@ cask "gpg-suite"
 cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Keyboard customizer
+cask "karabiner-elements"
+# Privacy-first, open-source platform for knowledge sharing and management
+cask "logseq"
 # Open-source firewall to block unknown outgoing connections
 cask "lulu"
 # Free and open-source RSS reader
@@ -150,14 +166,22 @@ cask "obs"
 cask "obsidian"
 # Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Block your own access to distracting websites
+cask "selfcontrol"
+# Instant messaging application focusing on security
+cask "signal"
 # Music streaming service
 cask "spotify"
 # Next generation tooling for Spring Boot
 cask "springtoolsuite"
-# Customizable email client
-cask "thunderbird"
+# Video game digital distribution service
+cask "steam"
 # IDE for TLA+
 cask "tla-plus-toolbox"
+# To-do list
+cask "todoist"
 # Web browser focusing on security
 cask "tor-browser"
 # Run commands and display their output on the desktop
@@ -173,6 +197,5 @@ mas "GoodNotes", id: 1444383602
 mas "KakaoTalk", id: 869223134
 mas "Sequel Ace", id: 1518036000
 mas "Shazam", id: 897118787
-mas "StudyWatch", id: 1152962540
 mas "WPS Office", id: 1468073139
 mas "Xcode", id: 497799835

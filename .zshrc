@@ -123,3 +123,6 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 alias vim="nvim"
 
 alias zettlekasten='cd /Users/gohlucas/Library/Mobile Documents/iCloud~md~obsidian/Documents'
+
+# set direnv
+eval "$(direnv hook zsh)"
