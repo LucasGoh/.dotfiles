@@ -126,6 +126,13 @@ lspconfig["emmet_ls"].setup({
 	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
 })
 
+-- A STATIC TYPE CHECKER FOR JAVASCRIPT   https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#flow
+lspconfig["flow"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+	filetypes = { "javascript", "javascriptreact", "javascript.jsx" },
+})
+
 -- configure lua server (with special settings)
 lspconfig["lua_ls"].setup({
 	settings = {
